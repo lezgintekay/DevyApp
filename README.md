@@ -2,8 +2,12 @@
 Real-time photo sharing app
 
 ## Features 
-<hr>
-
+### - Firebase (Firestore-Database, Authentication, Storage) 
+### - Fragments
+### - DataBinding
+### - ViewBinding
+### - Navigation
+### - Picasso 
 
 <p float="left">
   <img src="/sc_shot_1.png" width="300" />
