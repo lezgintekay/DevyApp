@@ -11,17 +11,15 @@
         android:id="@+id/textView14"
         android:layout_width="196dp"
         android:layout_height="58dp"
-        android:layout_marginBottom="670dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/pacifico"
         android:text="Devy"
         android:textAlignment="center"
         android:textColor="#F36D41"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
@@ -36,26 +34,30 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="43dp"
-        android:layout_height="36dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="670dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:onClick="addPhoto"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.08"
         app:srcCompat="@drawable/ic_baseline_add_a_photo_24" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="43dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="670dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:onClick="logOut"
         android:rotationY="180"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.08"
         app:srcCompat="@drawable/ic_baseline_logout_24" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,42 +10,48 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="196dp"
-        android:layout_height="58dp"
-        android:layout_marginBottom="670dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/pacifico"
         android:text="Devy"
         android:textAlignment="center"
         android:textColor="#F36D41"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.2" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="43dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="670dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:onClick="goBack"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.08"
         app:srcCompat="@drawable/ic_baseline_arrow_back_24"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="365dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="20dp"
         android:layout_marginBottom="405dp"
         android:onClick="addPhoto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintWidth_percent="0.9"
         app:srcCompat="@drawable/add_photo" />
 
     <EditText
